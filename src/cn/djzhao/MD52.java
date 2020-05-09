@@ -32,7 +32,7 @@ public class MD52 {
     static final int S44 = 21;
 
     //java不支持无符号的基本数据（unsigned）
-    private long [] result={A,B,C,D};//存储hash结果，共4×32=128位，初始化值为（幻数的级联）
+    private final long [] result={A,B,C,D};//存储hash结果，共4×32=128位，初始化值为（幻数的级联）
 
     public static void main(String []args){
         MD52 md=new MD52();
