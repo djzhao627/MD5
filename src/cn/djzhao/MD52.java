@@ -1,5 +1,8 @@
 package cn.djzhao;
 
+/**
+ * https://blog.csdn.net/u012611878/article/details/54000607
+ */
 public class MD52 {
 
     static final String hexs[]={"0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"};
